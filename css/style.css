@@ -227,8 +227,8 @@ table {
   /* line 112, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   .container {
     max-width: 480px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -237,6 +237,35 @@ table {
   content: '';
   display: table;
   clear: both;
+}
+
+/* line 128, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+.row {
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 128, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+/* line 90, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+.row::after, .row::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 132, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+div {
+  background: rgba(0, 0, 0, 0.3);
+  min-height: 50px !important;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
