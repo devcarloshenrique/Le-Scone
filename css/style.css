@@ -270,4 +270,57 @@ body {
   color: #2a2426;
 }
 
+@media screen and (max-width: 759px) {
+  /* line 1, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+  body {
+    border: none;
+  }
+}
+
+/* line 10, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* line 15, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+p {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+}
+
+/* line 19, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+.titulo {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 19, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+  .titulo {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 25, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+.titulo::after {
+  content: '';
+  display: block;
+  width: 70%;
+  height: 2px;
+  background: #2a2426;
+  float: right;
+  margin-top: 14px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+  /* line 25, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_geral.scss */
+  .titulo::after {
+    width: 60%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
