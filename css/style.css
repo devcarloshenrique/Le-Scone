@@ -1,130 +1,71 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* line 6, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-/* line 27, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-/* line 31, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-body {
-  line-height: 1;
-}
-
-/* line 34, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 37, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-blockquote, q {
-  quotes: none;
-}
-
-/* line 40, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-/* line 45, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_reset.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /* line 10, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-1 {
   width: calc(8.33333% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-2 {
   width: calc(16.66667% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-3 {
   width: calc(25% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-4 {
   width: calc(33.33333% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-5 {
   width: calc(41.66667% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-6 {
   width: calc(50% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-7 {
   width: calc(58.33333% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-8 {
   width: calc(66.66667% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-9 {
   width: calc(75% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-10 {
   width: calc(83.33333% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-11 {
   width: calc(91.66667% - 20px);
 }
 
-/* line 48, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 51, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .grid-12 {
   width: calc(100% - 20px);
 }
 
-/* line 68, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 71, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 [class^="grid-"] {
   float: left;
   min-height: 1px;
@@ -133,7 +74,7 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 68, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  /* line 71, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   [class^="grid-"] {
     width: 100%;
     float: none;
@@ -142,74 +83,74 @@ table {
   }
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-1 {
-  width: calc(8.33333% + 10px);
+  margin-left: calc(8.33333% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-2 {
-  width: calc(16.66667% + 10px);
+  margin-left: calc(16.66667% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-3 {
-  width: calc(25% + 10px);
+  margin-left: calc(25% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-4 {
-  width: calc(33.33333% + 10px);
+  margin-left: calc(33.33333% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-5 {
-  width: calc(41.66667% + 10px);
+  margin-left: calc(41.66667% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-6 {
-  width: calc(50% + 10px);
+  margin-left: calc(50% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-7 {
-  width: calc(58.33333% + 10px);
+  margin-left: calc(58.33333% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-8 {
-  width: calc(66.66667% + 10px);
+  margin-left: calc(66.66667% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-9 {
-  width: calc(75% + 10px);
+  margin-left: calc(75% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-10 {
-  width: calc(83.33333% + 10px);
+  margin-left: calc(83.33333% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-11 {
-  width: calc(91.66667% + 10px);
+  margin-left: calc(91.66667% + 10px);
 }
 
-/* line 75, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 78, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .offset-12 {
-  width: calc(100% + 10px);
+  margin-left: calc(100% + 10px);
 }
 
 @media screen and (max-width: 759px) {
-  /* line 82, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  /* line 85, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   .offset-1, .offset-2, .offset-3, .offset-4, .offset-5, .offset-6, .offset-7, .offset-8, .offset-9, .offset-10, .offset-11, .offset-12 {
     margin-left: 0px;
   }
 }
 
-/* line 112, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 116, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .container {
   max-width: 1200px;
   margin: 0px auto;
@@ -217,14 +158,14 @@ table {
 }
 
 @media screen and (min-width: 760px) and (max-width: 1199px) {
-  /* line 112, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  /* line 116, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   .container {
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 112, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  /* line 116, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   .container {
     max-width: 480px;
     padding-left: 10px;
@@ -232,14 +173,14 @@ table {
   }
 }
 
-/* line 90, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 93, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .container::after, .container::before {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
 
-/* line 128, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 131, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .row {
   position: relative;
   margin-left: -10px;
@@ -247,25 +188,24 @@ table {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 128, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+  /* line 131, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
   .row {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
 
-/* line 90, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 93, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
 .row::after, .row::before {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
 
-/* line 132, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_grid.scss */
+/* line 4, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/style.scss */
 div {
-  background: rgba(0, 0, 0, 0.3);
-  min-height: 50px !important;
-  margin-bottom: 20px;
+  font-family: 'Aref Ruqaa', serif;
+  font-family: 'PT Mono', monospace;
 }
 
 /*# sourceMappingURL=style.css.map */
