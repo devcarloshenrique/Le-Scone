@@ -589,4 +589,38 @@ input.button:hover {
   width: 100%;
 }
 
+/* line 1, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_footer.scss */
+footer {
+  padding: 20px 0;
+  background: #2a2426;
+  -webkit-box-shadow: 0 0 0 10px #2a2426;
+  -moz-box-shadow: 0 0 0 10px #2a2426;
+  box-shadow: 0 0 0 10px #2a2426;
+}
+
+/* line 5, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_footer.scss */
+footer p {
+  color: #edece4;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 5, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_footer.scss */
+  footer p {
+    text-align: center;
+  }
+}
+
+/* line 11, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_footer.scss */
+footer a img {
+  float: right;
+}
+
+@media screen and (max-width: 759px) {
+  /* line 11, ../../Documents/DevCarlos/Developer/sass-origamid/Le-Scone/css/scss/_footer.scss */
+  footer a img {
+    float: none;
+    margin: 20px auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
